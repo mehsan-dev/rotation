@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Using NodeJS, write an API that accepts a post request with a UTF-8 string and rotation number as payload and returns
+Using NodeJS, this API accepts a post request with a UTF-8 string and rotation number as payload and returns
 a ROT version of the string, storing the original string in a MongoDB database. If rotation number is not given then set 13 by default. The API should be capable of accepting a string of 1,000 characters. (No 3rd party
 libraries should be used for ROT.)
 ### Built With
